@@ -1,0 +1,50 @@
+name: EcoChat
+main: jp.minecraftuser.ecochat.EcoChat
+version: 0.9
+depend: [EcoFramework, EcoUserManager]
+commands:
+  cc:
+    description: eco chat command.
+    usage: /<command> <option>
+  ecc:
+    description: eco chat command.
+    usage: /<command> <option>
+  join:
+    description: eco chat command.
+    usage: /<command> <option>
+  passjoin:
+    description: eco chat command.
+    usage: /<command> <option>
+  leave:
+    description: eco chat command.
+    usage: /<command> <option>
+  delete:
+    description: eco chat command.
+    usage: /<command> <option>
+  set:
+    description: eco chat command.
+    usage: /<command> <option>
+  add:
+    description: eco chat command.
+    usage: /<command> <option>
+  conf:
+    description: eco chat command.
+    usage: /<command> <option>
+  channel:
+    description: eco chat command.
+    usage: /<command> <option>
+  pm:
+    description: eco chat command.
+    usage: /<command> <option>
+  rs:
+    description: eco chat command.
+    usage: /<command> <option>
+  history:
+    description: eco chat command.
+    usage: /<command> <option>
+  pmhistory:
+    description: eco chat command.
+    usage: /<command> <option>
+  dice:
+    description: eco chat command.
+    usage: /<command> <option>

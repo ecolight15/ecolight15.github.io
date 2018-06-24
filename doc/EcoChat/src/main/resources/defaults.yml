@@ -1,0 +1,250 @@
+Channels:
+  G:
+    name: General
+    type: global
+    default: true
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: WHITE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、全体チャットチャンネル[G](初期)へようこそ！チャットの詳しい使い方はサーバーwikiを参照ください'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  I:
+    name: 'Isatsu(挨拶)'
+    type: global
+    default: true
+    listed: true
+    activate: false
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: WHITE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p2}チャンネルは挨拶用です。挨拶以外の会話はご遠慮下さい。'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  W:
+    name: World
+    type: world
+    default: true
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: BLUE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p2}チャンネルはワールド内向けチャットです。他のワールドへは発言が通知されません'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  L:
+    name: Local
+    type: local
+    default: true
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: GRAY
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p2}チャンネルは近距離用チャンネルです。設定で受信範囲を変更できます。'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  FRN:
+    name: Foreign
+    type: global
+    default: true
+    listed: true
+    activate: true
+    addperm: true
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: WHITE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p2}チャンネルは国際用途のチャンネルです。日本語英語以外の言語向けになります。'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  F:
+    name: Freedom
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: GREEN
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、雑談用チャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  H:
+    name: Hentai
+    type: global
+    default: false
+    listed: false
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: LIGHT_PURPLE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、大人でR-18なチャンネルへ踏み入ってしまいましたね･･･'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  T:
+    name: Trade
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: YELLOW
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、トレード用チャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  P:
+    name: PvP
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: WHITE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、ゲームマップ向けチャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  DEF:
+    name: Defense
+    type: global
+    default: false
+    listed: false
+    activate: true
+    addperm: false
+    password:
+      enable: true
+      key: '000'
+    font:
+      color: WHITE
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、荒らし対策会議チャンネルへようこそ DEFチャンネルは参加や公開が制限されています'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  B:
+    name: Botti
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: false
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: DARK_GRAY
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、つぶやきチャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  LIVE:
+    name: Live
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: true
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: AQUA
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、各種生放送等向けのライブチャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+  ONI:
+    name: Onigokko
+    type: global
+    default: false
+    listed: true
+    activate: true
+    addperm: true
+    password:
+      enable: false
+      key: '000'
+    font:
+      color: RED
+      bold: false
+      italic: false
+      line: false
+      strike: false
+    msg:
+      join: '{p1}さん、鬼ごっこ用チャンネルへようこそ'
+      leave: '{p1}さん、ご参加有難う御座いました'
+
+  
