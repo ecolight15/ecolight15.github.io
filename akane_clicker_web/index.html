@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | akane_clicker</title>
+  </head>
+  <body style="text-align: center">
+    <br>
+    茜ちゃんクリッカー Version 1.0<br>
+    <br>
+    <a href="https://w.atwiki.jp/mcforum/pages/90.html" target="blank_">つくりかた</a><br>
+    <br><br>
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #000000"></canvas>
+    <script src="Build/akane_clicker_web.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/akane_clicker_web.data.br",
+        frameworkUrl: "Build/akane_clicker_web.framework.js.br",
+        codeUrl: "Build/akane_clicker_web.wasm.br",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "ecolight",
+        productName: "akane_clicker",
+        productVersion: "1.0",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+    <br><br>
+    © 2022 ecolight.<br>
+  </body>
+</html>
