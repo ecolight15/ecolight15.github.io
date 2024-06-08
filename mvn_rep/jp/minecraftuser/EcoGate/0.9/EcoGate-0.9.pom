@@ -17,7 +17,7 @@
         </repository>
         <repository>
             <id>eco-plugin</id>
-            <url>http://ecolight15.github.io/mvn_rep/</url>
+            <url>https://ecolight15.github.io/mvn_rep/</url>
         </repository>
     </repositories>
     <dependencies>
